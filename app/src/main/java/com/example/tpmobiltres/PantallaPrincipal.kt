@@ -125,7 +125,10 @@ class PantallaPrincipal : ComponentActivity() {
             colors = ButtonDefaults.buttonColors(backgroundColor = Color(0xFF396AE9)),
 
 
-            onClick = { /*aca cambiaria a la pantalla de mostrar el qr y escanear*/ }) {
+            onClick = {
+                startActivity(Intent(this@PantallaPrincipal,PantallaPrincipalVersus::class.java))
+                finish()
+            }) {
             Text(text = "Versus")
 
         }
