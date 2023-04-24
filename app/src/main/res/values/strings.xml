@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">pruebaDeLaApp</string>
+    <string name="title_activity_pantalla_principal">PantallaPrincipal</string>
+    <string name="title_activity_pantalla_perfil">PantallaPerfil</string>
+    <string name="title_activity_pantalla_principal_versus">PantallaPrincipalVersus</string>
+</resources>
